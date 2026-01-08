@@ -713,6 +713,26 @@
               <FileType>5</FileType>
               <FilePath>.\User\ADC.h</FilePath>
             </File>
+            <File>
+              <FileName>servo.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\servo.c</FilePath>
+            </File>
+            <File>
+              <FileName>servo.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\servo.h</FilePath>
+            </File>
+            <File>
+              <FileName>TIM2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User\TIM2.c</FilePath>
+            </File>
+            <File>
+              <FileName>TIM2.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User\TIM2.h</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

@@ -27,6 +27,8 @@ void Serial_Printf(char *format,...);
 void USART1_IRQHandler(void);
 void DMA1_Channel4_IRQHandler(void);
 
+extern uint32_t i;//显示这次启动后发起了多少次输出
+
 
 #endif
 
