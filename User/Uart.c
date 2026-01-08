@@ -21,6 +21,7 @@ uint32_t i = 0;//显示这次启动后发起了多少次输出
 
 void Serial_DMA_RX_Init(void)
 	{
+		RCC_AHBPeriphClockCmd(RCC_AHBPeriph_DMA1,ENABLE);//打开DMA1时钟
 		DMA_InitTypeDef DMA_InitStructure;
 		
 		
@@ -47,6 +48,7 @@ void Serial_DMA_RX_Init(void)
 	}	
 void Serial_DMA_TX_Init(void)
 	{
+		RCC_AHBPeriphClockCmd(RCC_AHBPeriph_DMA1,ENABLE);//打开DMA1时钟
 		DMA_InitTypeDef DMA_InitStructure;//定义结构体
 		
 		
